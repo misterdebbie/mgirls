@@ -1,0 +1,38 @@
+body {
+    background-color: pink;
+    color: green;
+    font-family: "Creepster", Cursive;
+    letter-spacing: .5px;}
+.navbar {
+    background-color: rgb(244, 208, 65);}
+#greet{ text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    letter-spacing: 2px;}
+img {
+    width: 280px;
+    height: 340px;
+    border: 2px solid powderblue;}
+img:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background-color: green;
+}
+p {
+    text-align: center;}
+p.price {
+    line-height: 0;
+    padding-bottom: 10px;}
+
+p.transbox {
+    width: 280px;
+    height: 340px;
+    background-color: #ffffff;
+    opacity: 1.0;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+p.transbox {
+    font-weight: bold;
+    color: #000000;
+}

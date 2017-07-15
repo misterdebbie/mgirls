@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: pink;
+}
+h1 {
+    padding-left: 150px;}
+
+.navbar {
+    background-color: bisque;
+}
+.navbar-header a.navbar-brand {
+    color: green;
+}
+.navbar-header a.navbar-brand:hover {
+    color: hotpink;
+}
+ul.nav.navbar-nav a {
+    color: black;
+}
+ul.nav.navbar-nav a:hover {
+    color: hotpink;
+}
