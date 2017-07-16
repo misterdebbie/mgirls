@@ -21,3 +21,9 @@ ul.nav.navbar-nav a {
 ul.nav.navbar-nav a:hover {
     color: hotpink;
 }
+/*#icons{display:block;
+    padding: 40px;
+    float:right;
+    padding-left: 190px;}*/
+#icons{display:block;
+    padding-left: 190px;}

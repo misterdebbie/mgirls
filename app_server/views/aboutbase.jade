@@ -4,6 +4,7 @@ html
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         title= title
         link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+        link(rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
         link(rel='stylesheet', href='/stylesheets/about.css')
     body
         .navbar.navbar-default.navbar-fixed-top
@@ -25,13 +26,13 @@ html
                         li
                             a(href='/about/') about
 
-        .container
-            block content
+    .container
+      block content
 
-            footer
-                .row
-                    .col-xs-12
-                        small &copy; yang!
+      footer
+        .row
+            .col-xs-12
+                small &copy; yang!
 
-        script(src='/javascripts/jquery-1.11.2.min.js')
-        script(src='/bootstrap/js/bootstrap.min.js')
+script(src='/javascripts/jquery-1.11.2.min.js')
+script(src='/bootstrap/js/bootstrap.min.js')
