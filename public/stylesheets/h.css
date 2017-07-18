@@ -12,9 +12,6 @@ a title {color: deeppink;}
     height: 200px;
     width: 200px;
 }
-#last {
-    float: right;
-}
 a{
     display: block;
     text-decoration: none;
