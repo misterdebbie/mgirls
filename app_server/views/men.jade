@@ -1,0 +1,41 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Fashion Stufffs
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    link(rel='stylesheet', href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css')
+    link(rel='stylesheet', href='stylesheets/b15.css')
+    // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+
+body
+    .blog-masthead
+        .container
+            nav.blog-nav
+                a.blog-nav-item.active(href='/') Back to Yang Site
+                a.blog-nav-item(href='#') Men's Runway
+                a.blog-nav-item(href='#') Women's Runway
+                a.blog-nav-item(href='#') Fashion Stuff
+                a.blog-nav-item(href='#') Only the First Link Functions!
+
+        .container
+        .row
+          .col-xs-12.col-sm-8
+            .row.list-group
+                each e in entries
+                  .col-xs-12
+                     p= e.name
+                     p= e.notes
+                      a(href="#top") UP!
+                      p
+                        each look in e.looks
+                           .col-xs-12
+                             img(src=look, width='150', height='200')

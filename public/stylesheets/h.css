@@ -1,0 +1,26 @@
+body {color: deeppink;background-color: #c7e6fd;}
+img {
+    height: 100%;
+    width: 98%;
+    text-align: center;
+}
+title {color: deeppink;}
+p.tool span{ display: none;background-color: powderblue;color:deeppink;}
+p.tool:hover span {display: block;}
+a title {color: deeppink;}
+.c {
+    height: 200px;
+    width: 200px;
+}
+#last {
+    float: right;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: deeppink;
+}
+a:hover {
+    color:yellow;
+    text-decoration: none;
+}

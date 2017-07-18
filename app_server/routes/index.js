@@ -8,6 +8,8 @@ var ctrlAbout = require('../controllers/about');
 
 /* GET home page. */
 router.get('/', ctrlHome.homeController);
+/* GET sample home page. */
+router.get('/hello', ctrlHome.sampleHomeController);
 
 /* GET sample 1 home page. */
 //router.get('/sampleone', ctrlS1.sampleHomeController);
