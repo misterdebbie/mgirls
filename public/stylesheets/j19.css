@@ -1,12 +1,7 @@
-/*
- * Globals
- */
-
 body {
     font-family:"Courier New", Courier, monospace;
-/*font-family: Georgia, "Times New Roman", Times, serif;*/
     color: pink;
-}
+    background-color: white;}
 
 hr {
     width: 98%;
@@ -15,8 +10,10 @@ hr {
     /* Set the hr color */
     color: deeppink; /* old IE */
     background-color:deeppink; /* Modern Browsers */}
+
 .title-logo{
     margin-top: 20px;}
+
 a:hover, a:visited, a:link, a:active{
     text-decoration: none;
     color: deeppink;}
@@ -29,13 +26,8 @@ h5, .h5,
 h6, .h6 {
     margin-top: 0;
     font-family:"Courier New", Courier, monospace;
-
-    /*font-family: Georgia, "Times New Roman", Times, serif;*/
-
-    /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-weight: normal;
-    color: white;
-}
+    color: white; }
 
 
 /*

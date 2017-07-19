@@ -8,7 +8,7 @@
     });
 };*/
 module.exports.sampleHomeController = function (req, res, next) {
-    res.render('j19', { title: 'Designers',
+    res.render('m2', { title: 'Designers',
         pageHeader: {
             title: "Yang Edit",
             strapline: "Looks from Vogue.com"
