@@ -12,6 +12,20 @@ a title {color: deeppink;}
     height: 200px;
     width: 200px;
 }
+.n{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.n2{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.n3{
+    height: 100px;
+    width: 100px;
+}
 .r {
     float: right;
     height: 200px;
@@ -29,3 +43,10 @@ a:hover {
     color:yellow;
     text-decoration: none;
 }
+hr {
+    width: 90%;
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: deeppink; /* old IE */
+    background-color:deeppink; /* Modern Browsers */}
