@@ -25,21 +25,21 @@ body
                 a.blog-nav-item(href='#') Women's Runway
                 a.blog-nav-item(href='#') Fashion Stuff
                 a.blog-nav-item(href='#') Only the First Link Functions!
-    .container
-      .row
-        .col-xs-12.col-sm-3
-            h4#top=title
-            each designer in designers
-                h5
-                    a.des(href="#" + designer)= designer
-        .col-xs-12.col-sm-9
-            .row.list-group
-                each e in entries
-                    p
-                        each look in e.looks
-                            .col-xs-12.col-sm-3
-                                img(src=look, width='190', height='270')
-                    .col-xs-12
-                        p(id=e)= e.name
-                        p= e.notes
-                        a(href="#top") UP!
+        .container
+          .row
+            .col-xs-12.col-sm-3
+                h4#top=title
+                each designer in designers
+                    h5
+                        a.des(href="#designer")= designer
+            .col-xs-12.col-sm-9
+                .row.list-group
+                    each e in entries
+                        p
+                            each look in e.looks
+                                .col-xs-12.col-sm-3
+                                    img(src=look, width='190', height='270')
+                        .col-xs-12
+                            p.designere= e.name
+                            p= e.notes
+                            a(href="#top") UP!
