@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906e3f1a-d3e3-4dbc-b69b-a9ca4ef3dbc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_server/views/ladybase.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_server/views/ladyplay.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_server/views/ladytest.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/controllers/sample_3Controllers/test.js" afterPath="$PROJECT_DIR$/app_server/controllers/sample_3Controllers/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/ladyplay.jade" afterPath="$PROJECT_DIR$/app_server/views/ladyplay.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css" afterPath="$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css" />
     </list>
     <ignored path="j14.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ladyplay.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ladyplay.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/views/ladyplay.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -71,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ladytest.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ladytest.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -197,8 +193,8 @@
         <option value="$PROJECT_DIR$/app_server/views/ladybase.jade" />
         <option value="$PROJECT_DIR$/app_server/views/ladytest.jade" />
         <option value="$PROJECT_DIR$/app_server/controllers/sample_3Controllers/test.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css" />
         <option value="$PROJECT_DIR$/app_server/views/ladyplay.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css" />
       </list>
     </option>
   </component>
@@ -615,12 +611,12 @@
       <workItem from="1500574081611" duration="4350000" />
       <workItem from="1500831308205" duration="4789000" />
       <workItem from="1500859836894" duration="4152000" />
-      <workItem from="1500895670248" duration="1738000" />
+      <workItem from="1500895670248" duration="4493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62443000" />
+    <option name="totallyTimeSpent" value="65198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1054,18 +1050,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css">
+    <entry file="file://$PROJECT_DIR$/app_server/views/ladyplay.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/ladyplay.jade">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/sample_3_style/ladytest.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
