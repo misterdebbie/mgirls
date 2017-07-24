@@ -1,0 +1,25 @@
+octype html
+html
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title= title
+        link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+        link(href='https://fonts.googleapis.com/css?family=Creepster', rel='stylesheet')
+        link(rel='stylesheet', href='/stylesheets/sample_3_style/djebbiepicks.css')
+
+        link(rel='stylesheet', href='/stylesheets/sample_3_style/luiztest.css')
+    body
+    .container-fluid
+    .row
+        .col-xs-12.col-sm-12.text-center
+            a(href='/samplethree/luizpage')
+                img.masterr(src='/images/luiz3.jpg')
+    .row
+        .col-xs-12.col-sm-6
+            a(href='/samplethree/bags')
+                img.n(src='/images/rA.jpg')
+        .col-xs-12.col-sm-6
+            a(href='/samplethree/dresses')
+                img.n2(src='/images/rB.jpg')
+    .container
+        block content

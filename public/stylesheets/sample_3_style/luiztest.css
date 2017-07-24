@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+body {
+    font: 14px, "Creepster", Cursive;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+/*.pic{float:right;
+    width:200px;
+    height:240px;
+    background: url("/images/three_img/lady/qpep.jpg") no-repeat center;
+    background-size: 130px 200px;
+    margin-right: 40px;
+    margin-left: 60px;
+}*/
+.pic {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/sil.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic2 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/rick.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic3 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/lang.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic4 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/gv.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic5 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/mil.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic6 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/st.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic7 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/low.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic8 {
+    float: right;
+    width:160px;
+    height:280px;
+    background: url("/images/three_img/luiz/sl.jpg") no-repeat center;
+    background-size: 160px 280px;
+    margin: 10px 0;
+
+}
+.pic9 {
+     float: right;
+     width:160px;
+     height:280px;
+     background: url("/images/three_img/luiz/tb.jpg") no-repeat center;
+     background-size: 160px 280px;
+     margin: 10px 0;
+
+ }
+.pic10 {
+      float: right;
+      width:160px;
+      height:280px;
+      background: url("/images/three_img/luiz/ro.jpg") no-repeat center;
+      background-size: 160px 280px;
+      margin: 10px 0;
+
+  }
+.pic11 {
+       float: right;
+       width:300px;
+       height:200px;
+       background: url("/images/three_img/luiz/mj.jpg") no-repeat center;
+       background-size: 300px 200px;
+       margin: 10px 0;
+
+   }
+.pic12 {
+        float: right;
+        width:280px;
+        height:280px;
+        background: url("/images/three_img/luiz/v.jpg") no-repeat center;
+        background-size: 280px 280px;
+        margin: 10px 0;}
+.w11{
+    float:right;
+    width:300px;
+    height:200px;
+    background:black;
+    opacity:0;
+}
+
+.w12{
+    float:right;
+    width:280px;
+    height:280px;
+    background:black;
+    opacity:0;
+}
+.w{
+    float:right;
+    width:160px;
+    height:280px;
+    background:black;
+    opacity:0;
+}
+.pic:hover .w{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic2:hover .w2{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic3:hover .w3{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic4:hover .w4{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic5:hover .w5{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic6:hover .w6{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic7:hover .w7{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic8:hover .w8{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic9:hover .w9{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic10:hover .w10{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic11:hover .w11{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
+.pic12:hover .w12{
+    opacity:0.6;
+    color:springgreen;
+    text-align: center;
+    font-size:16px;
+    font-weight:600;
+    line-height: 20px;
+    height: 280px;
+}
