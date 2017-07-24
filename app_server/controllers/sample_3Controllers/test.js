@@ -13,7 +13,7 @@ module.exports.sampleHomeController = function (req, res, next) {
 };
 /*get home page for lady */
 module.exports.ladyController = function (req, res, next) {
-    res.render('ladypage', {});
+    res.render('ladyplay', {});
 };
 /*get home page for daewoo */
 module.exports.daewooController = function (req, res, next) {
