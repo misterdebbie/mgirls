@@ -29,7 +29,7 @@ module.exports.stephController = function (req, res, next) {
 };
 /*get home page for luiz */
 module.exports.luizController = function (req, res, next) {
-    res.render('luizplay', {});
+    res.render('luizpage', {});
 };
 /*get home page for valerie */
 module.exports.valerieController = function (req, res, next) {

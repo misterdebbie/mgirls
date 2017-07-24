@@ -2,13 +2,17 @@ extends aboutbase
 
 block content
   .row
-    .col-xs-12
-    h1= title
+    .col-xs-12.col-sm-6
+      h1= title
+      p this is a node.js app wrapping 3 sample projects
+      p the first one calls and writes to a mongo db
+      p the second is a spa built with angular
+      p the third is a jamble, ill explain it later
   .row
-    .col-xs-12
+    .col-xs-12.col.sm-6
       img.img-responsive(src='/images/yang.jpg')
   .row
-    #icons.col-md-4
+    #icons.col-xs-12.col-md-4
         a(href='http://oiseaugrand.tumblr.com', title='mrdebbie')
             i.fa.fa-tumblr-square(style='font-size:30px;color:green')
         a(href='https://www.instagram.com/mrdebbiechong/', title='mrdebbie')
