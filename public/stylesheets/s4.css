@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: deeppink;
+    text-align: center;
+    background-color: #c7e6fd;}
+body {
+    width: 94%;
+    margin: 0 auto;}
+h2 {margin: 0;}
+#nav {
+    width: 90%;
+    margin: 1%;
+    padding: 0.5em 0;}
+li {
+    display: inline;
+    padding: 0 .5em;}
+a { text-decoration: none;}
+.headmini {
+    width:20px;
+    float:right;margin-top: 0;
+    display: inline;
+    margin-right: 5px;}
+.yellow {color: yellow;}
+.blue {color: blue;}
+#hello{ min-width: 50%;max-width: 90%;height: 400px}
+.field{height: 290px;border: 2px solid deeppink;padding: 18px;border-radius: 4px;}
+#login {width: 48%;margin: 1%;float: right;}
+#create {width: 48%;margin: 1%;float: right;}
+.sub{margin-top: 10px;margin-bottom: 0}
+input.sub {color:blue;width:20%;border: 3px solid deeppink;border-radius: 4px;background-color: white;}
+input {width:70%;border-radius: 4px;}
+.leg{text-align: left;}

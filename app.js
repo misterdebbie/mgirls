@@ -10,6 +10,8 @@ var users = require('./app_server/routes/users');
 var s1 = require('./app_server/routes/one');
 var s2 = require('./app_server/routes/two');
 var s3 = require('./app_server/routes/three');
+var s4 = require('./app_server/routes/four');
+
 //var test = require('./app_test/routes/test');
 
 var app = express();
@@ -33,6 +35,8 @@ app.use('/users', users);
 app.use('/sampleone', s1);
 app.use('/sampletwo',s2);
 app.use('/samplethree', s3);
+app.use('/samplefour', s4);
+
 //app.use('/test', test);
 
 // catch 404 and forward to error handler

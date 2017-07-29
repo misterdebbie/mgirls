@@ -1,0 +1,72 @@
+doctype html
+html
+    head
+        title Yang Login Test
+        link(href='/stylesheets/s4.css', type='text/css', rel='stylesheet')
+    body
+        #header
+            p
+                img(src='/images/rA.jpg', alt='cloud 2', title='i drew this!', width='200', height='140')
+            #nav
+                ul
+                    li
+                        a.blue(href='/samplefour') Yang
+                    li
+                        a(href='/samplefour/runway')
+                            img(src='/images/rA.jpg', alt='cloud 3', title='runway looks', width='20', height='20')
+                            span.yellow | Runway
+                    li
+                        a(href='/samplefour/shop')
+                            img(src='/images/rA.jpg', alt='cloud 1', title='shop edit', width='20', height='20')
+                            span.yellow | Shop Edit
+                    li
+                        a(href='/samplefour/jambles')
+                            img(src='/images/rA.jpg', alt='cloud 1', title='jambles', width='20', height='20')
+                            span.yellow | Jambles
+                    li
+                        a(href='/samplefour/contact')
+                            img(src='/images/rA.jpg', alt='cloud 1', title='contact debbie!', width='20', height='20')
+                            span.yellow | Contact
+                    li
+                        a(href='/samplefour/stuff')
+                            img(src='/images/rA.jpg', alt='cloud 1', title='stuff', width='20', height='20')
+                            span.yellow | Stuff
+        h2 Login
+        #login
+            form(action='', method='get')
+                fieldset.field.leg
+                    legend.leg
+                        img(src='/images/rA.jpg', alt='cloud 2', title='i drew this!', width='100', height='140')
+                    label Username
+                        br
+                        input(type='text', name='username', required='required')
+                    br
+                    label Password
+                        br
+                        input(type='password', name='password', required='required')
+                    br
+                    br
+                    br
+                    input.sub(type='submit', value='login')
+                br
+        #create
+            form(action='', method='post')
+                fieldset.field.leg
+                    legend.leg
+                        img(src='/images/rA.jpg', alt='cloud 2', title='i drew this!', width='100', height='140')
+                    label Username
+                        br
+                        input(type='text', name='name', required='required')
+                    br
+                    label Password
+                        br
+                        input(type='password', name='password', required='required')
+                    br
+                    label Birthday
+                        br
+                        input(type='date', name='bday')
+                    br
+                    input.sub(type='submit', value='register')
+                br
+
+    block content
