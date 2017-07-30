@@ -2,7 +2,7 @@ doctype html
 html
     head
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
-        title= title
+        title hello
         link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
         link(rel='stylesheet', href='/stylesheets/h.css')
     body
@@ -11,17 +11,21 @@ html
         .col-xs-12.text-center
             a(href='/sampleone')
                 img.c(src='/images/rA.jpg')
-        .row
+    .row
             .col-xs-12.col-sm-6
                 a(href='/sampletwo')
                     img.c(src='/images/rB.jpg')
             .col-xs-12.col-sm-6.text-center
                 a(href='/samplethree')
                     img#last.c(src='/images/rC.jpg')
-            .col-xs-12.col-sm-6.text-center
-                a(href='/samplefour')
-                    img#last.c(src='/images/jewels2.jpg')
     .row
-      .col-xs-12.col-sm-9.text-center
+      .col-xs-12.col-sm-12.text-center
+        a(href='/samplefour')
+            img#last.c(src='/images/jewels2.jpg')
+    .row
+      .col-xs-12.col-sm-7.text-center
+        a(href='/hello')
+            img.c(src='/images/home.jpg')
+      .col-xs-12.col-sm-5.text-center
         a(href='/about')
             img.c(src='/images/aA.jpg')

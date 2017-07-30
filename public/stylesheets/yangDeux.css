@@ -14,8 +14,10 @@ h2 {margin: 0;}
 li {
     display: inline;
     padding: 0 .5em;}
-a { text-decoration: none;}
-a :hover {color:yellow;}
+a { text-decoration: none;
+    color: deeppink;
+}
+a :hover{color: yellow;}
 .headmini {
     width:20px;
     float:right;margin-top: 0;
@@ -23,8 +25,7 @@ a :hover {color:yellow;}
     margin-right: 5px;}
 .yellow {color: yellow;}
 .blue {color: blue;}
-.pink {color: deeppink;}
-
+.pink{color:deepink;}
 #hello{ min-width: 50%;max-width: 90%;height: 400px}
 .field{height: 290px;border: 2px solid deeppink;padding: 18px;border-radius: 4px;}
 #login {width: 48%;margin: 1%;float: right;}
