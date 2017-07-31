@@ -15,6 +15,10 @@ router.get('/yang', ctrlHome.homeController);
 /* GET sample home page. */
 router.get('/hello', ctrlHome.sampleHomeController);
 
+/* GET shhh page. */
+router.get('/shhh', ctrlHome.shhhController);
+
+
 /* GET sample 1 home page. */
 //router.get('/sampleone', ctrlS1.sampleHomeController);
 

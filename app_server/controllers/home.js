@@ -14,3 +14,6 @@ module.exports.homeController = function (req, res, next) {
 module.exports.sampleHomeController = function (req, res, next) {
     res.render('sHomeFluff', { });
 };
+module.exports.shhhController = function (req, res, next) {
+    res.render('shh', { });
+};
