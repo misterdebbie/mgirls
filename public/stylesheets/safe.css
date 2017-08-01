@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+    color: white;
+    background-color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 90%;
+    margin: 0px;
+    text-align: center;}
+a {
+    color: white;
+    text-decoration: none;}
+a:hover {
+    color: #ffffff;}
+.header {
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;}
+.nav {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    /*font-family: QuicksandBook, Helvetica, Arial, sans-serif;*/
+    padding: 15px 20px 0px 0px;
+    text-align: right;
+    margin-left: -20px;}
+.n {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 15px 20px 0px 0px;
+    text-align: right;
+    margin-left: 100px;}
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    text-align: left;}
+.logo {
+    margin-bottom: 20px;}
+h1, h2{
+    font-family: 'Noto Sans', sans-serif;
+    /*font-family: QuicksandBook, Helvetica, Arial, sans-serif;*/
+    font-weight: normal;
+    text-transform: uppercase;}
+h1 {
+    font-size: 240%;
+    margin-top: 160px;
+    margin-left:80px;}
+h6 {font-family: 'Noto Sans', sans-serif;  font-weight: normal;}
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: #b5c1ad;}
+.intro {
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;}
+.main-story {
+    background-image: url("../images/c11.jpg");
+    background-repeat: no-repeat;
+    background-position: 122px 142px;
+    height: 760px;}
+.more-articles {
+    border-top: 1px solid #ffffff;
+    padding: 10px;}
+.more-articles p {
+    border-bottom: 1px solid #807c72;
+    padding: 5px 0px 15px 0px;
+    font-size: 80%;}
+.more-articles p:last-child {
+    border-bottom: none;}
+.edit {
+    padding-left: 10px;}
+.edit p:last-child {
+    border-bottom: none;}
+.footer {
+    clear: both;
+    background-color: black;
+    padding: 5px 10px;}
+.footer p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 75%;
+    text-align: right;}
+.footer a {
+    color: #807c72;}
+#start{color:green;}
+#yang {float: left;font-family: 'Noto Sans', sans-serif;
+    /*font-family: QuicksandBook, Helvetica, Arial, sans-serif;*/
+    padding: 0px 0px 0px 140px;
+    margin:0;}
+.daily{margin-top: 80px;margin-left: 30px;}
+#y {float: left;font-family: 'Noto Sans', sans-serif;
+    padding: 0px 0px 0px 30px;
+    margin-right:800px;}
+.d {margin-left: 30px; }

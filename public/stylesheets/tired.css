@@ -31,13 +31,20 @@ a:hover {
   padding: 15px 20px 0px 0px;
   text-align: right;
   margin-left: 100px;}
-.wrapper {
+/*.wrapper {
   width: 960px;
   margin: 0px auto;
   background-color: black;
   background-repeat: no-repeat;
   background-position: 0px 0px;
-  text-align: left;}
+  text-align: left;}*/
+  .wrapper {
+				width: 960px;
+				margin: 0px auto;
+				background-image: url("images/prada44.jpg");
+				background-repeat: no-repeat;
+				background-position: 0px 0px;
+				text-align: left;}
 .logo {
   margin-bottom: 20px;}
 h1, h2{
@@ -59,7 +66,7 @@ h6 {font-family: 'Noto Sans', sans-serif;  font-weight: normal;}
     font-size: 90%;
     line-height: 1.4em;}
 .main-story {
-  background-image: url("../images/c11.jpg");
+  background-image: url("../images/prada44.jpg");
   background-repeat: no-repeat;
   background-position: 122px 142px;
   height: 760px;}
