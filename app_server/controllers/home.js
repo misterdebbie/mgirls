@@ -3,7 +3,10 @@
     res.render('index', { title: 'yang sample home page' });
 };*/
 module.exports.styleController = function (req, res, next) {
-    res.render('clean', { });
+    res.render('splash', { });
+};
+module.exports.fallController = function (req, res, next) {
+    res.render('fall17', { });
 };
 /*module.exports.homeController = function (req, res, next) {
     res.render('homeFluff', { });

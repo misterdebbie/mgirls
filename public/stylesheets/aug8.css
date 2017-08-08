@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Mada');
+body { background-color: white;color:black;margin: 0px;
+    font-family: 'Mada', sans-serif;
+    padding-top: 70px;text-align: center;}
+.nav {color:black;background-color:white;}
+.navbar-header{background-color: white;}
+.navbar-brand{padding-left: 50px;background-color: white;}
+.navbar-collapse{background-color: white;}
+.navbar-toggle {border:none; outline: none;}
+.main{width:90%;}
+.edit{height:20%;}
+.intro {
+    color: white;
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;}
+h3 a {color: black; text-decoration: none;}
+h3 a:hover {color: deeppink;text-decoration: none;}
+p a {color:black; text-decoration: none;}
+p a:hover{color: deeppink;text-decoration: none;}
+#main a {color:black; text-decoration: none;}
+#main a:hover{color: deeppink;}
+#arc a {color: #3176f7;text-decoration: none;}
+#arc a:hover{color: deeppink;}
+.left {text-align:left;}
+.w{margin-top: 10px;}
+#start{float: left;margin: 0;padding: 0;}
+.mini{padding-top: 2px;padding-bottom: 2px;}
+hr {width: 100%;}
+.more { text-align: left;
+    border-bottom: 1px solid #807c72;
+    padding: 5px 0px 15px 0px;
+    font-size: 80%;}
+.lastmore {
+    border-bottom: none;}
+.fixed-bottom {float:left;color:black;}

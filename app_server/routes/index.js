@@ -9,6 +9,9 @@ var ctrlAbout = require('../controllers/about');
 /* GET style home page. */
 router.get('/', ctrlHome.styleController);
 
+/* GET fall 17 page. */
+router.get('/fall17', ctrlHome.fallController);
+
 /* GET yang home page. */
 router.get('/yang', ctrlHome.homeController);
 
