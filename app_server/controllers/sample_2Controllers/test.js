@@ -13,6 +13,20 @@ module.exports.sampleHomeController = function (req, res, next) {
             title: "Yang Edit",
             strapline: "Looks from Vogue.com"
         },
+        designers: ["Etro"],
+        entries: [
+            {name: 'Etro',
+                notes: 'Very cool very nice',
+                looks:["/images/mensrunwayimages/etro5.jpg",
+                    "/images/mensrunwayimages/etro11.jpg"]}]
+    });
+};
+/*module.exports.sampleHomeController = function (req, res, next) {
+    res.render('m3', { title: 'Designers',
+        pageHeader: {
+            title: "Yang Edit",
+            strapline: "Looks from Vogue.com"
+        },
         designers: ["Acne","A.P.C.","Bally","Boglioli",
             "Canalli","Cerruti","Coach","Dior",
             "E.Tautz","Etro","E.Zegna","Ferragamo","Gucci",
@@ -109,7 +123,7 @@ module.exports.sampleHomeController = function (req, res, next) {
                     "/images/mensrunwayimages/jw19.jpg"]}
         ]
     });
-};
+};*/
 /*module.exports.sampleHomeController = function (req, res, next) {
     res.render('men', { title: 'Designers',
         pageHeader: {

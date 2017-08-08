@@ -12,6 +12,27 @@ router.get('/', ctrlHome.styleController);
 /* GET fall 17 page. */
 router.get('/fall17', ctrlHome.fallController);
 
+/* GET spring 18 page. */
+router.get('/spring18', ctrlHome.springController);
+
+/* GET trend page. */
+router.get('/trends', ctrlHome.trendController);
+
+/* GET bag page. */
+router.get('/bags', ctrlHome.bagController);
+
+/* GET shoe page. */
+router.get('/shoes', ctrlHome.shoeController);
+
+/* GET jewels page. */
+router.get('/jewels', ctrlHome.jewelController);
+
+/* GET jambles page. */
+router.get('/jjjambles', ctrlHome.jjjamblesController);
+
+/* GET mens 16 page. */
+router.get('/mens16', ctrlHome.mensController);
+
 /* GET yang home page. */
 router.get('/yang', ctrlHome.homeController);
 
