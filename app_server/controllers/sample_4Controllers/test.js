@@ -12,17 +12,14 @@ module.exports.runwayController = function (req, res, next) {
 };
 /*get shop edit page  */
 module.exports.shopController = function (req, res, next) {
-    res.render('anniepage', {});
+    res.render('jamblespage', {});
 };
 /*get  jambles page */
 module.exports.jamblesController = function (req, res, next) {
-    res.render('stephpage', {});
+    res.render('jamblespage', {});
 };
-/*get contact page for luiz */
+/*get contact page  */
 module.exports.contactController = function (req, res, next) {
-    res.render('luizpage', {});
+    res.render('jamblespage', {});
 };
-/*get stuff page */
-module.exports.stuffController = function (req, res, next) {
-    res.render('valeriepage', {});
-};
+

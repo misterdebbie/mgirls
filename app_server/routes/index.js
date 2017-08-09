@@ -37,7 +37,7 @@ router.get('/mens16', ctrlHome.mensController);
 router.get('/yang', ctrlHome.homeController);
 
 /* GET sample home page. */
-router.get('/hello', ctrlHome.sampleHomeController);
+//router.get('/hello', ctrlHome.sampleHomeController);
 
 /* GET shhh page. */
 router.get('/shhh', ctrlHome.shhhController);

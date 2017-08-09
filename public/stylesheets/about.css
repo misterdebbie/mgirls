@@ -7,11 +7,12 @@ body {
     padding-left: 150px;}*/
 
 .navbar {
-    background-color: bisque;
+    color: white;
+    background-color: white;
 }
-.navbar-header a.navbar-brand {
+/*.navbar-header a.navbar-brand {
     color: green;
-}
+}*/
 .navbar-header a.navbar-brand:hover {
     color: hotpink;
 }
@@ -27,3 +28,13 @@ ul.nav.navbar-nav a:hover {
     padding-left: 190px;}*/
 #icons{display:block;
     padding-left: 190px;}
+footer a{
+    color: black;
+    text-align: none;
+    font-size: x-small;
+}
+footer a:hover{
+    color: deeppink;
+    text-align: none;
+    font-size: x-small;
+}

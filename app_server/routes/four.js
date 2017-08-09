@@ -10,7 +10,6 @@ router.get('/runway', ctrlS4.runwayController);
 router.get('/shop', ctrlS4.shopController);
 router.get('/contact', ctrlS4.contactController);
 router.get('/jambles', ctrlS4.jamblesController);
-router.get('/stuff', ctrlS4.stuffController);
 
 
 module.exports = router;
