@@ -27,6 +27,9 @@ module.exports.jewelController = function (req, res, next) {
 module.exports.jjjamblesController = function (req, res, next) {
     res.render('jjjambles', { });
 };
+/*module.exports.jjjamblesController = function (req, res, next) {
+    res.render('auggg10', { });
+};*/
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',
         pageHeader: {
