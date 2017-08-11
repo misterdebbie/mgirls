@@ -41,7 +41,10 @@ router.get('/yang', ctrlHome.homeController);
 
 /* GET shhh page. */
 router.get('/shhh', ctrlHome.shhhController);
-
+/* GET acne page. */
+router.get('/acne', ctrlHome.acneController);
+/* GET barneys page. */
+router.get('/barneys', ctrlHome.barneysController);
 
 /* GET sample 1 home page. */
 //router.get('/sampleone', ctrlS1.sampleHomeController);

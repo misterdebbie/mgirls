@@ -24,12 +24,18 @@ module.exports.shoeController = function (req, res, next) {
 module.exports.jewelController = function (req, res, next) {
     res.render('jewels', { });
 };
+/*module.exports.jjjamblesController = function (req, res, next) {
+    res.render('jjjambles', { });
+};*/
 module.exports.jjjamblesController = function (req, res, next) {
     res.render('jjjambles', { });
 };
-/*module.exports.jjjamblesController = function (req, res, next) {
-    res.render('auggg10', { });
-};*/
+module.exports.acneController = function (req, res, next) {
+    res.render('atest', { });
+};
+module.exports.barneysController = function (req, res, next) {
+    res.render('barneys', { });
+};
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',
         pageHeader: {
