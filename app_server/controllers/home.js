@@ -3,7 +3,7 @@
     res.render('index', { title: 'yang sample home page' });
 };*/
 module.exports.styleController = function (req, res, next) {
-    res.render('splash', { });
+    res.render('splash12', { });
 };
 module.exports.fallController = function (req, res, next) {
     res.render('fall17', { });
@@ -35,6 +35,9 @@ module.exports.acneController = function (req, res, next) {
 };
 module.exports.barneysController = function (req, res, next) {
     res.render('barneys', { });
+};
+module.exports.allController = function (req, res, next) {
+    res.render('all', { });
 };
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',

@@ -54,3 +54,13 @@ hr {width: 100%;}
 .acne {float: left;margin-bottom: 10px;}
 .oop {margin-top: 40px;}
 .ooo {margin-top: 80px;}
+.all {margin: auto;}
+#dot {margin-top:20px;margin-right: 0;}
+.go {margin-top: 30px;}
+.little{margin-top: 0px;}
+li {list-style-type: none;}
+.buy {display: inline;}
+li a {color: black;}
+li a:hover {color: deeppink;text-decoration: none;}
+.test{margin-top: 20px;}
+.after{background-color: blue;color: blue;}
