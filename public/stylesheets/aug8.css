@@ -64,3 +64,5 @@ li a {color: black;}
 li a:hover {color: deeppink;text-decoration: none;}
 .test{margin-top: 20px;}
 .after{background-color: blue;color: blue;}
+.move a { margin-top: 10px; color: black;}
+.move a:hover{ color: deeppink; text-decoration: none;}
