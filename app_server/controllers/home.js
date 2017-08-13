@@ -33,8 +33,11 @@ module.exports.jjjamblesController = function (req, res, next) {
 module.exports.acneController = function (req, res, next) {
     res.render('atest', { });
 };
-module.exports.barneysController = function (req, res, next) {
+/*module.exports.barneysController = function (req, res, next) {
     res.render('barneys', { });
+};*/
+module.exports.barneysController = function (req, res, next) {
+    res.render('brown', { });
 };
 module.exports.allController = function (req, res, next) {
     res.render('all', { });
