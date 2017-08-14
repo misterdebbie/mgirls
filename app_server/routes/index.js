@@ -48,6 +48,8 @@ router.get('/alltogether', ctrlHome.allController);
 router.get('/acne', ctrlHome.acneController);
 /* GET barneys page. */
 router.get('/barneys', ctrlHome.barneysController);
+/* GET work page. */
+router.get('/eweiss', ctrlHome.workController);
 
 /* GET sample 1 home page. */
 //router.get('/sampleone', ctrlS1.sampleHomeController);

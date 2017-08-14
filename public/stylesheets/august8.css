@@ -36,3 +36,9 @@ hr{width:80%;}
 .move a {color:black;}
 a:hover{ color: deeppink; text-decoration: none;}
 .m2 {float: left;}
+#name {margin-top: 60px;}
+#em {margin: 0;}
+#em a{ color: black;}
+#em a:hover {color:deeppink;text-decoration: none;}
+.stuff {width: 85%;}
+.role {margin: 0;}

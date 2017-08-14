@@ -42,6 +42,9 @@ module.exports.barneysController = function (req, res, next) {
 module.exports.allController = function (req, res, next) {
     res.render('all', { });
 };
+module.exports.workController = function (req, res, next) {
+    res.render('em', { });
+};
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',
         pageHeader: {
