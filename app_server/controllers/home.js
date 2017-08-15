@@ -43,7 +43,10 @@ module.exports.allController = function (req, res, next) {
     res.render('all', { });
 };
 module.exports.workController = function (req, res, next) {
-    res.render('em', { });
+    res.render('ew15', { });
+};
+module.exports.joyController = function (req, res, next) {
+    res.render('joy', { });
 };
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',

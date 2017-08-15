@@ -50,6 +50,9 @@ router.get('/acne', ctrlHome.acneController);
 router.get('/barneys', ctrlHome.barneysController);
 /* GET work page. */
 router.get('/eweiss', ctrlHome.workController);
+/* GET joy page. */
+router.get('/joy', ctrlHome.joyController);
+
 
 /* GET sample 1 home page. */
 //router.get('/sampleone', ctrlS1.sampleHomeController);
