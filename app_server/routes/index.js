@@ -42,6 +42,11 @@ router.get('/yang', ctrlHome.homeController);
 /* GET shhh page. */
 router.get('/shhh', ctrlHome.shhhController);
 
+/* GET account page. */
+router.get('/accounts', ctrlHome.accountController);
+/* GET gift page page. */
+router.get('/giftlist', ctrlHome.giftController);
+
 /* GET all together page. */
 router.get('/alltogether', ctrlHome.allController);
 /* GET acne page. */

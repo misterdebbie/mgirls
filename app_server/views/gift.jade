@@ -1,0 +1,18 @@
+extends giftbase
+
+block content
+    .container
+        .row
+            #page.col-sm-6
+                h1 Gift List
+                ul.alive
+                    li#one Mom
+                    li#two Jenny
+                    li#three Kim
+                    li#four Sara
+                #newItemButton
+                    button#showForm(href='#') Add
+                form#newItemForm
+                    input#itemDescription(type='text', placeholder='Add name to list')
+                    input#add(type='submit', value='add')
+

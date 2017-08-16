@@ -48,6 +48,12 @@ module.exports.workController = function (req, res, next) {
 module.exports.joyController = function (req, res, next) {
     res.render('joy', { });
 };
+module.exports.accountController = function (req, res, next) {
+    res.render('gift', { });
+};
+module.exports.giftController = function (req, res, next) {
+    res.render('gift', { });
+};
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',
         pageHeader: {
