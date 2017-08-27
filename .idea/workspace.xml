@@ -120,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/app_server/views/shh.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -239,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,7 +418,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -549,12 +549,13 @@
       <workItem from="1502806172514" duration="1014000" />
       <workItem from="1502884499357" duration="2182000" />
       <workItem from="1502890348603" duration="706000" />
-      <workItem from="1503060717032" duration="41000" />
+      <workItem from="1503060717032" duration="361000" />
+      <workItem from="1503859762415" duration="207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157245000" />
+    <option name="totallyTimeSpent" value="157772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +987,7 @@
     <entry file="file://$PROJECT_DIR$/app_server/views/shh.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding />
         </state>
       </provider>
