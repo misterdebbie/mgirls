@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="906e3f1a-d3e3-4dbc-b69b-a9ca4ef3dbc5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/shh.jade" afterPath="$PROJECT_DIR$/app_server/views/shh.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/aboutbase.jade" afterPath="$PROJECT_DIR$/app_server/views/aboutbase.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/faBase.jade" afterPath="$PROJECT_DIR$/app_server/views/faBase.jade" />
     </list>
     <ignored path="j14.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ew15.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/views/ew15.jade">
+      <file leaf-file-name="faBase.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_server/views/faBase.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="147">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faBase.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/views/faBase.jade">
+      <file leaf-file-name="aboutbase.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_server/views/aboutbase.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            <state relative-caret-position="162">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -76,16 +77,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_server/views/about.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gift.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/views/gift.jade">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +107,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shh.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="splash12.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_server/views/splash12.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shh.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/views/shh.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -179,7 +180,6 @@
         <option value="$PROJECT_DIR$/app_server/views/all.jade" />
         <option value="$PROJECT_DIR$/public/stylesheets/august8.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/august13.css" />
-        <option value="$PROJECT_DIR$/app_server/views/aboutbase.jade" />
         <option value="$PROJECT_DIR$/app_server/views/fall17.jade" />
         <option value="$PROJECT_DIR$/app_server/views/spring18.jade" />
         <option value="$PROJECT_DIR$/app_server/views/splash12.jade" />
@@ -189,11 +189,12 @@
         <option value="$PROJECT_DIR$/app_server/controllers/home.js" />
         <option value="$PROJECT_DIR$/app_server/views/giftbase.jade" />
         <option value="$PROJECT_DIR$/app_server/routes/index.js" />
-        <option value="$PROJECT_DIR$/app_server/views/faBase.jade" />
         <option value="$PROJECT_DIR$/app_server/views/gift.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/august16.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/august16.css" />
         <option value="$PROJECT_DIR$/app_server/views/shh.jade" />
+        <option value="$PROJECT_DIR$/app_server/views/faBase.jade" />
+        <option value="$PROJECT_DIR$/app_server/views/aboutbase.jade" />
       </list>
     </option>
   </component>
@@ -239,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,6 +419,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,12 +551,13 @@
       <workItem from="1502884499357" duration="2182000" />
       <workItem from="1502890348603" duration="706000" />
       <workItem from="1503060717032" duration="361000" />
-      <workItem from="1503859762415" duration="207000" />
+      <workItem from="1503859762415" duration="381000" />
+      <workItem from="1503929424394" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157772000" />
+    <option name="totallyTimeSpent" value="158027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,20 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/splash12.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/aboutbase.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/em.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
@@ -920,34 +907,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/controllers/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/views/about.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/faBase.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -988,6 +951,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/splash12.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/faBase.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/aboutbase.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
