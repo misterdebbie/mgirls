@@ -5,6 +5,9 @@
 module.exports.styleController = function (req, res, next) {
     res.render('splash12', { });
 };
+module.exports.jcrewController = function (req, res, next) {
+    res.render('jcrew', { });
+};
 module.exports.fallController = function (req, res, next) {
     res.render('fall17', { });
 };
