@@ -1,8 +1,8 @@
 extends aboutbase
 
 block content
-  .row
-    .col-xs-12.col-sm-6
+  .row.text-center
+    .col-xs-12.col-sm-12
       h2= title
       p this is a node.js app wrapping 5 sample projects
       p main FA is super basic bootstrap layout
@@ -12,10 +12,10 @@ block content
       p the fourth is html5/css/javascript/jquery only
 
       .row
-    .col-xs-12.col.sm-6
-      img.img-responsive(src='/images/yang.jpg')
+        .col-xs-12.col-sm-12.text-center
+          img.img-responsive(src='/images/yang.jpg')
      .row
-       #icons.col-xs-12.col-md-4
+       #icons.col-xs-12.col-sm-12.text-center
         a(href='http://oiseaugrand.tumblr.com', title='mrdebbie')
             i.fa.fa-tumblr-square(style='font-size:30px;color:green;')
         a(href='https://www.instagram.com/mrdebbiechong/', title='mrdebbie')
@@ -24,7 +24,3 @@ block content
             i.fa.fa-pinterest-square(style='font-size:30px;color:green')
         a(href='https://www.instagram.com/mrdebbiechong/', title='mrdebbie')
             i.fa.fa-instagram(style='font-size:30px;color:green')
-
-
-
-
