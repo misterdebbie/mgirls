@@ -4,13 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+require('./app_api/models/db');
 var index = require('./app_server/routes/index');
 var s1 = require('./app_server/routes/one');
 var s2 = require('./app_server/routes/two');
 var s3 = require('./app_server/routes/three');
 var s4 = require('./app_server/routes/four');
-
+var routesApi = require('./app_api/routes/index');
 //var test = require('./app_test/routes/test');
 
 var app = express();
@@ -34,6 +34,7 @@ app.use('/sampleone', s1);
 app.use('/sampletwo',s2);
 app.use('/samplethree', s3);
 app.use('/samplefour', s4);
+app.use('/api', routesApi);
 
 //app.use('/test', test);
 
