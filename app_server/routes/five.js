@@ -1,0 +1,15 @@
+var express = require('express');
+var router = express.Router();
+var ctrlS5 = require('../controllers/sample_5Controllers/test');
+
+/* GET sample 5 home page. */
+/* base URL is '/samplefive' */
+router.get('/', ctrlS5.sampleHomeController);
+/*router.get('/login', ctrlS4.loginController);
+router.get('/runway', ctrlS4.runwayController);
+router.get('/shop', ctrlS4.shopController);
+router.get('/contact', ctrlS4.contactController);
+router.get('/jambles', ctrlS4.jamblesController);*/
+
+
+module.exports = router;
