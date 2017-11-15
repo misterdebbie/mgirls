@@ -1,4 +1,4 @@
-header, section, footer, aside, nav, article, figure, figcaption {display: block;}
+/*header, section, footer, aside, nav, article, figure, figcaption {display: block;}
 * {background-color:purple;color:white;}
 body {width: 90%; margin: 0 auto;}
 header {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}
@@ -27,6 +27,81 @@ input {height: 30px;border: 1px solid yellow;text-align: center;width: 300px;fon
 input submit {text-align: center;width: 300px;font-family: 'VT323', monospace;margin-top: 10px;font-size: 38px;}
 #future {margin-top: 10px;color:rgb(0,187,136);font-size: 16px;}
 @media (max-width: 500px) {
-.f, input {width:300px;}
+  .f{text-align: center;width: 300px;font-family: 'VT323', monospace;margin: 5px auto;}
+  .adult {height: 12em;position: relative;}
+  .circle{
+  border: 5px solid yellow;
+  padding: 0px;
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  margin: 0px;background-color: yellow;
+  padding:0px;
+  border-radius: 100px;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);}
+  #future {margin-top: 10px;color:rgb(0,187,136);font-size: 26px;}
+
+}*/
+* {background-color:purple;color:white;}
+body {width: 90%; margin: 0 auto;}
+/*header {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}*/
+.h {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}
+h2 {margin: 0;font-family: 'VT323', monospace;text-align: center;}
+.adult {height: 12em;position: relative;}
+.circle{
+border: 5px solid yellow;
+padding: 0px;
+width: 180px;
+height: 180px;
+display: inline-block;
+margin: 0px;background-color: yellow;
+padding:0px;
+border-radius: 100px;
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+position: absolute;
+top:50%;
+left:50%;
+margin-right: -50%;
+transform: translate(-50%,-50%);}
+#present {margin-top: 10px;color:black;font-family: 'VT323', monospace;text-align: center;}
+label {display: block;margin-top: 20px;}
+.f {text-align: center;width: 600px;font-family: 'VT323', monospace;margin: 0 auto;}
+input {height: 30px;border: 1px solid yellow;text-align: center;width: 300px;font-family: 'VT323', monospace;margin-top: 10px;font-size:20px;}
+input submit {border: 2px solid green;text-align: center;width: 200px;font-family: 'VT323', monospace;margin-top: 10px;font-size: 38px;}
+
+#future {margin-top: 10px;color:rgb(0,187,136);font-size: 16px;}
+
+@media (max-width: 500px) {
+.h {font-size: 40px;margin: 20px auto 60px auto;text-align: center;color:rgb(245,140,178);font-weight: bold;}
+h2 {margin: 0;font-family: 'VT323', monospace;text-align: center;}
+.f{text-align: center;width: 300px;font-family: 'VT323', monospace;margin: 5px auto;}
+.adult {height: 4em;position: relative;}
+.circle{
+border: 5px solid yellow;
+padding: 0px;
+width: 140px;
+height: 140px;
+display: inline-block;
+margin: 0px;background-color: yellow;
+padding:0px;
+border-radius: 140px;
+-moz-border-radius:140px;
+-webkit-border-radius:100px;
+position: absolute;
+top:50%;
+left:50%;
+margin-right: -50%;
+transform: translate(-50%,-50%);}
+#present {margin-top: 50px;color:black;font-family: 'VT323', monospace;text-align: center;}
+.f {text-align: center;width: 300px;font-family: 'VT323', monospace;margin: 0 auto;}
+input {height: 30px;border: 2px solid yellow;text-align: center;width: 200px;font-family: 'VT323', monospace;margin-top: 10px;font-size:20px;}
+#future {margin-top: 10px;color:rgb(0,187,136);font-size: 26px;}
 
 }
