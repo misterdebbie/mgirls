@@ -51,7 +51,7 @@ input submit {text-align: center;width: 300px;font-family: 'VT323', monospace;ma
 * {background-color:purple;color:white;}
 body {width: 90%; margin: 0 auto;}
 /*header {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}*/
-.h {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}
+header {font-size: 60px;margin: 50px 0;text-align: center;color:rgb(245,140,178);font-weight: bold;}
 h2 {margin: 0;font-family: 'VT323', monospace;text-align: center;}
 .adult {height: 12em;position: relative;}
 .circle{
