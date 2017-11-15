@@ -102,6 +102,6 @@ transform: translate(-50%,-50%);}
 #present {margin-top: 50px;color:black;font-family: 'VT323', monospace;text-align: center;}
 .f {text-align: center;width: 300px;font-family: 'VT323', monospace;margin: 0 auto;}
 input {height: 30px;border: 2px solid yellow;text-align: center;width: 200px;font-family: 'VT323', monospace;margin-top: 10px;font-size:20px;}
-#future {margin-top: 10px;color:rgb(0,187,136);font-size: 26px;}
+#future {margin-top: 10px;color:rgb(0,187,136);font-size: 20px;width:300px;text-align: center;}
 
 }

@@ -50,7 +50,7 @@ var fCast = function (){
   break;
   case 'taurus':
   case 'Taurus':
-  forecast.textContent = "Taurus, fun and easy is best. Invest in wall decoration and start supplementing with vitamin D3";
+  forecast.textContent = "Taurus, fun and easy is best. Invest in wall decorations and start supplementing with vitamin D3";
   break;
   case 'gemini':
   case 'Gemini':
