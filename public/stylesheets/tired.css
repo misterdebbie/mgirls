@@ -103,3 +103,6 @@ h6 {font-family: 'Noto Sans', sans-serif;  font-weight: normal;}
   padding: 0px 0px 0px 30px;
   margin-right:800px;}
 .d {margin-left: 30px;}
+@media (max-width: 500px) {
+ .nav {width: 30%;}
+}
