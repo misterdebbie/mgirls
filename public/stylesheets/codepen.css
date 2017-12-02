@@ -1,0 +1,27 @@
+body {color: deeppink;background-color: #c7e6fd;}
+img {
+    height: 100%;
+    width: 98%;
+    text-align: center;
+}
+#f {position:fixed;top: 100px;left:270px;}
+#l {position: fixed;top:190px;left:600px;}
+#home {position: fixed;top:340px;left:200px;}
+#about {position: fixed; top:350px; right:180px;}
+title {color: deeppink;}
+p.tool span{ display: none;background-color: powderblue;color:deeppink;}
+p.tool:hover span {display: block;}
+a title {color: deeppink;}
+.c {
+    height: 200px;
+    width: 200px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: deeppink;
+}
+a:hover {
+    color:yellow;
+    text-decoration: none;
+}

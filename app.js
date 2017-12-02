@@ -11,6 +11,7 @@ var s2 = require('./app_server/routes/two');
 var s3 = require('./app_server/routes/three');
 var s4 = require('./app_server/routes/four');
 var s5 = require('./app_server/routes/five');
+var s6 = require('./app_server/routes/six');
 
 var routesApi = require('./app_api/routes/index');
 //var test = require('./app_test/routes/test');
@@ -37,6 +38,7 @@ app.use('/sampletwo',s2);
 app.use('/samplethree', s3);
 app.use('/samplefour', s4);
 app.use('/samplefive', s5);
+app.use('/samplesix', s6);
 
 app.use('/api', routesApi);
 
