@@ -12,7 +12,7 @@ var s3 = require('./app_server/routes/three');
 var s4 = require('./app_server/routes/four');
 var s5 = require('./app_server/routes/five');
 var s6 = require('./app_server/routes/six');
-var s7 = require('./app_server/routes/seven');
+//var s7 = require('./app_server/routes/seven');
 
 var routesApi = require('./app_api/routes/index');
 //var test = require('./app_test/routes/test');
@@ -40,7 +40,7 @@ app.use('/samplethree', s3);
 app.use('/samplefour', s4);
 app.use('/samplefive', s5);
 app.use('/samplesix', s6);
-app.use('/sockhunt', s7);
+//app.use('/sockhunt', s7);
 
 app.use('/api', routesApi);
 
