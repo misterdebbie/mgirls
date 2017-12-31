@@ -5,8 +5,11 @@
 module.exports.styleController = function (req, res, next) {
     res.render('splash12', { });
 };
-module.exports.thoughtsController = function (req, res, next) {
+/*module.exports.thoughtsController = function (req, res, next) {
     res.render('shh', { });
+};*/
+module.exports.thoughtsController = function (req, res, next) {
+    res.render('newyang', { });
 };
 module.exports.jcrewController = function (req, res, next) {
     res.render('j', { });

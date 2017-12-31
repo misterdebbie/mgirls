@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  /*background-color: #e6ccff;
+  background-color: rgb(230,204,255);
+  background-color: hsl(271, 100%, 90%);*/
+  font-family: 'Lato', sans-serif;
+  background-color: #ccffe6;
+  background-color: rgb(204,255, 230);
+  background-color: hsl(151, 100%, 90%);
+}
+div#wrapper {
+  margin: auto;
+  position: relative;
+  width: 900px;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 0px;
+  min-height: 100%;
+}
+div#middle {
+  margin: auto;
+  position: relative;
+  width: 1650px;
+  background-color: #ccffe6;
+  background-color: rgb(204,255, 230);
+  background-color: hsl(151, 100%, 90%);
+  overflow: auto;
+  overflow-y: hidden;
+  height: 100%;
+  bottom: 0px;
+}
+div#me {
+  margin-left: 0px !important;
+  position: fixed !important;
+  padding: 25px 0px 0px 0px;
+  width: 170px;
+  margin-top: 101px;
+  text-align: right;
+}
+h3#name{margin-bottom: 0;}
+p#city{
+  margin: 0;
+  padding-right: 3px;
+}
+div#info {
+  float: right;
+  width: 500px;
+  padding: 0px 850px 0px 0px;
+}
+div#contact {
+  margin-bottom: 0px;
+}
+p#present {
+  color: #80ffc1;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+p#past {
+  color: #80ffc1;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+p#student {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: pink;
+}
