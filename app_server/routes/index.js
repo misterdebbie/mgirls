@@ -9,7 +9,7 @@ var ctrlAbout = require('../controllers/about');
 /* GET style home page. */
 //router.get('/', ctrlHome.thoughtsController);
 /* GET style home page. */
-router.get('/', ctrlHome.styleController);
+router.get('/future', ctrlHome.styleController);
 /* GET style home page. */
 router.get('/jcrew', ctrlHome.jcrewController);
 
