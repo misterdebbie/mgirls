@@ -78,6 +78,9 @@ a:hover {
   color: rgb(255,255,128);
   color: hsl(60, 100%,75%);
 }
+a.tiny {font-size: 10px; color:deeppink;}
+a.tiny:hover {font-size: 10px; color:yellow;}
+
 /*@media only screen and (max-width:500px){
   div#me {display:none;}
   div#boo {display: inline-block;}
