@@ -2,6 +2,9 @@
 /*module.exports.homeController = function (req, res, next) {
     res.render('index', { title: 'yang sample home page' });
 };*/
+module.exports.yangController = function (req, res, next) {
+    res.render('newyang', { });
+};
 module.exports.styleController = function (req, res, next) {
     res.render('splash12', { });
 };
