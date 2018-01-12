@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', index);
-app.use('/future', index);
+app.use('/', index);
 app.use('/sampleone', s1);
 app.use('/sampletwo',s2);
 app.use('/samplethree', s3);
@@ -47,9 +47,9 @@ app.use('/samplefive', s5);
 //app.use('/api', routesApi);
 
 //app.use('/test', test);
-app.get('/',(req,res) => {
+/*app.get('/',(req,res) => {
   res.render('newyang');
-});
+});*/
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
