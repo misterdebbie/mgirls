@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', index);
-//app.use('/', index);
+app.use('/future', index);
 app.use('/sampleone', s1);
 app.use('/sampletwo',s2);
 app.use('/samplethree', s3);

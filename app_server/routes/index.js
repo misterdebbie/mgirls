@@ -6,10 +6,11 @@ var ctrlAbout = require('../controllers/about');
 //var ctrlS2 = require('../controllers/sample_2Controllers/test');
 //var ctrlS3 = require('../controllers/sample_3Controllers/test');
 
+router.get('/', ctrlHome.styleController);
+
 /* GET style home page. */
-//router.get('/', ctrlHome.thoughtsController);
+router.get('/shh', ctrlHome.shhhController);
 /* GET style home page. */
-router.get('/future', ctrlHome.styleController);
 /* GET style home page. */
 router.get('/jcrew', ctrlHome.jcrewController);
 
