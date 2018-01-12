@@ -7,9 +7,9 @@ var ctrlAbout = require('../controllers/about');
 //var ctrlS3 = require('../controllers/sample_3Controllers/test');
 
 /* GET style home page. */
-router.get('/', ctrlHome.thoughtsController);
+//router.get('/', ctrlHome.thoughtsController);
 /* GET style home page. */
-router.get('/style', ctrlHome.styleController);
+router.get('/', ctrlHome.styleController);
 /* GET style home page. */
 router.get('/jcrew', ctrlHome.jcrewController);
 

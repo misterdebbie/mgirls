@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 require('./app_api/models/db');
+
 var index = require('./app_server/routes/index');
 var s1 = require('./app_server/routes/one');
 var s2 = require('./app_server/routes/two');
@@ -14,7 +15,7 @@ var s5 = require('./app_server/routes/five');
 //var s6 = require('./app_server/routes/six');
 //var s7 = require('./app_server/routes/seven');
 
-var routesApi = require('./app_api/routes/index');
+//var routesApi = require('./app_api/routes/index');
 //var test = require('./app_test/routes/test');
 
 var app = express();
@@ -34,6 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/future', index);
 app.use('/sampleone', s1);
 app.use('/sampletwo',s2);
 app.use('/samplethree', s3);
@@ -42,10 +44,12 @@ app.use('/samplefive', s5);
 //app.use('/samplesix', s6);
 //app.use('/sockhunt', s7);
 
-app.use('/api', routesApi);
+//app.use('/api', routesApi);
 
 //app.use('/test', test);
-
+app.get('/',(req,res) => {
+  res.render('newyang');
+});
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
