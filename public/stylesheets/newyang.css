@@ -59,6 +59,11 @@ p#present {
   font-weight: bolder;
   margin-bottom: 0px;
 }
+p#skills {
+  color: #80ffc1;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
 p#past {
   color: #80ffc1;
   font-weight: bolder;
@@ -66,6 +71,8 @@ p#past {
 }
 p#student {
   margin-top: 0;
+  line-height: 1.6;
+  width: 500px;
 }
 a {
   text-decoration: none;

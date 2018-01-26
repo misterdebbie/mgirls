@@ -14,13 +14,13 @@ router.get('/', ctrlHome.styleController);
 router.get('/shh', ctrlHome.shhhController);
 /* GET style home page. */
 /* GET style home page. */
-router.get('/jcrew', ctrlHome.jcrewController);
+router.get('style/jcrew', ctrlHome.jcrewController);
 
 /* GET fall 17 page. */
-router.get('/fall17', ctrlHome.fallController);
+router.get('style/fall17', ctrlHome.fallController);
 
 /* GET spring 18 page. */
-router.get('/spring18', ctrlHome.springController);
+router.get('style/spring18', ctrlHome.springController);
 
 /* GET trend page. */
 router.get('/trends', ctrlHome.trendController);
