@@ -1,0 +1,114 @@
+body {
+  background-color: #d0c5f7;
+  font-family: 'Work Sans', sans-serif;
+}
+.wrapper {
+  background-color: #c0eef9;
+  background-color: #d0c5f7;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.hoverr a{
+  position: relative;
+}
+.hoverr a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+.hoverr a:hover span {
+  display: block;
+}
+.me {
+  border-radius: 4px;
+  padding: .5px 2px 0 2px;
+}
+h3#name {
+  margin-bottom: 0px;
+}
+p#city {
+  margin: 0;
+}
+.colone {
+  padding: 8px;
+  margin: 2px;
+  position: fixed;
+  top: 70px;
+  left: 330px;
+}
+a {
+  color: #030e21;
+  text-decoration: none;
+}
+a:hover {
+  color: #f4f186;
+}
+.bright {
+  color:#80ffc1;
+  font-size: 18px;
+}
+#yangstory {
+  line-height: .7cm;
+  width: 65%;
+}
+#present{
+  margin: 0;
+}
+#student {
+  margin-top: 0;
+}
+.coltwo {
+  padding: 8px;
+  background-color: #e6b9e8;
+  background-color: #d0c5f7;
+  margin: 2px;
+  position: absolute;
+  left: 540px;
+}
+
+@media screen and (max-width: 768px){
+  body {
+    background-color: #485bea;
+  }
+  .me {
+    background-color: #db4ae0;
+  }
+  .colone {
+    padding: 8px;
+    margin: 2px;
+    position: fixed;
+    top: 50px;
+    left: 70px;
+  }
+  .coltwo {
+    padding: 8px;
+    background-color: #f6fc85;
+    margin: 2px;
+    position: absolute;
+    left: 220px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  body {
+    background-color: #c89cd8;
+  }
+  .me {
+    background-color: #db4ae0;
+  }
+  .colone {
+    padding: 8px;
+    margin: 2px;
+    position: fixed;
+    top: 50px;
+    left: 3px;
+  }
+  .coltwo {
+    padding: 8px;
+    background-color: #f6fc85;
+    margin: 2px;
+    position: absolute;
+    left: 150px;
+ }
+}
