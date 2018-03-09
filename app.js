@@ -48,7 +48,7 @@ app.use('/samplefive', s5);
 
 //app.use('/test', test);
 app.get('/',(req,res) => {
-  res.render('newnew');
+  res.render('yangnine');
 });
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
