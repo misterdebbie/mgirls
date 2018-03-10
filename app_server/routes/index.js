@@ -1,29 +1,28 @@
 var express = require('express');
 var router = express.Router();
 var ctrlHome = require('../controllers/home');
-var ctrlAbout = require('../controllers/about');
+//var ctrlAbout = require('../controllers/about');
 //var ctrlS1 = require('../controllers/sample_1Controllers/test');
 //var ctrlS2 = require('../controllers/sample_2Controllers/test');
 //var ctrlS3 = require('../controllers/sample_3Controllers/test');
 
 //router.get('/', ctrlHome.yangController);
-
+/* GET style home page. */
 router.get('/', ctrlHome.styleController);
-
-/* GET style home page. */
 router.get('/shh', ctrlHome.shhhController);
-/* GET style home page. */
-/* GET style home page. */
-router.get('style/jcrew', ctrlHome.jcrewController);
-
-/* GET fall 17 page. */
-router.get('style/fall17', ctrlHome.fallController);
-
-/* GET spring 18 page. */
-router.get('style/spring18', ctrlHome.springController);
-
 /* GET trend page. */
 router.get('/trends', ctrlHome.trendController);
+
+/* GET mens 16 page. */
+router.get('/mens16', ctrlHome.mensController);
+/* GET spring 18 page. */
+//router.get('/spring18', ctrlHome.springController);
+
+/* GET fall 17 page. */
+//router.get('/fall17', ctrlHome.fallController);
+
+
+//router.get('style/jcrew', ctrlHome.jcrewController);
 
 /* GET bag page. */
 router.get('/bags', ctrlHome.bagController);
@@ -61,9 +60,9 @@ router.get('/acne', ctrlHome.acneController);
 /* GET barneys page. */
 router.get('/barneys', ctrlHome.barneysController);
 /* GET work page. */
-router.get('/eweiss', ctrlHome.workController);
+//router.get('/eweiss', ctrlHome.workController);
 /* GET joy page. */
-router.get('/joy', ctrlHome.joyController);
+//router.get('/joy', ctrlHome.joyController);
 
 
 /* GET sample 1 home page. */
@@ -76,6 +75,6 @@ router.get('/joy', ctrlHome.joyController);
 //router.get('/samplethree', ctrlS3.sampleHomeController);
 
 /* GET about page. */
-router.get('/about', ctrlAbout.aboutController);
+//router.get('/about', ctrlAbout.aboutController);
 
 module.exports = router;

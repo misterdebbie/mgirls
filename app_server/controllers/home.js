@@ -5,24 +5,18 @@
 /*module.exports.yangController = function (req, res, next) {
     res.render('newyang', { });
 };*/
+/*module.exports.homeController = function (req, res, next) {
+    res.render('yangnine', { });
+};*/
+
+/*module.exports.sampleHomeController = function (req, res, next) {
+    res.render('sHomeFluff', { });
+};*/
 module.exports.styleController = function (req, res, next) {
     res.render('splash12', { });
 };
 module.exports.shhhController = function (req, res, next) {
     res.render('shh', { });
-};
-/*module.exports.thoughtsController = function (req, res, next) {
-    res.render('newyang', { });
-};*/
-module.exports.jcrewController = function (req, res, next) {
-    res.render('j', { });
-};
-module.exports.fallController = function (req, res, next) {
-    res.render('fall17', { });
-};
-
-module.exports.springController = function (req, res, next) {
-    res.render('spring18', { });
 };
 module.exports.trendController = function (req, res, next) {
     res.render('trends', { });
@@ -36,29 +30,17 @@ module.exports.shoeController = function (req, res, next) {
 module.exports.jewelController = function (req, res, next) {
     res.render('jewels', { });
 };
-/*module.exports.jjjamblesController = function (req, res, next) {
-    res.render('jjjambles', { });
-};*/
 module.exports.jjjamblesController = function (req, res, next) {
     res.render('jjjambles', { });
 };
 module.exports.acneController = function (req, res, next) {
     res.render('atest', { });
 };
-/*module.exports.barneysController = function (req, res, next) {
-    res.render('barneys', { });
-};*/
 module.exports.barneysController = function (req, res, next) {
     res.render('brown', { });
 };
 module.exports.allController = function (req, res, next) {
     res.render('all', { });
-};
-module.exports.workController = function (req, res, next) {
-    res.render('ew15', { });
-};
-module.exports.joyController = function (req, res, next) {
-    res.render('joy', { });
 };
 module.exports.accountController = function (req, res, next) {
     res.render('gift', { });
@@ -66,6 +48,38 @@ module.exports.accountController = function (req, res, next) {
 module.exports.giftController = function (req, res, next) {
     res.render('gift', { });
 };
+/*module.exports.thoughtsController = function (req, res, next) {
+    res.render('newyang', { });
+};*/
+/*module.exports.jcrewController = function (req, res, next) {
+    res.render('j', { });
+};*/
+/*module.exports.fallController = function (req, res, next) {
+    res.render('fall17', { });
+};*/
+
+/*module.exports.springController = function (req, res, next) {
+    res.render('spring18', { });
+};*/
+
+/*module.exports.springController = function (req, res, next) {
+    res.send('hello');
+};*/
+/*module.exports.jjjamblesController = function (req, res, next) {
+    res.render('jjjambles', { });
+};*/
+
+/*module.exports.barneysController = function (req, res, next) {
+    res.render('barneys', { });
+};*/
+
+/*module.exports.workController = function (req, res, next) {
+    res.render('ew15', { });
+};
+module.exports.joyController = function (req, res, next) {
+    res.render('joy', { });
+};*/
+
 module.exports.mensController = function (req, res, next) {
     res.render('dudes', { title: 'Designers',
         pageHeader: {
