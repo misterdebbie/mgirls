@@ -1,0 +1,19 @@
+INSERT INTO arrival_scan (sku, exp, quantity) VALUES
+()
+;
+
+INSERT INTO users (name) VALUES
+()
+;
+
+INSERT INTO cart (name) VALUES
+()
+;
+
+INSERT INTO purchase_orders (quantity, price, notes) VALUES
+()
+;
+
+INSERT INTO reports (item name, quantity, par, lastorder, notes, price, exp) VALUES
+()
+;

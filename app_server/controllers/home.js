@@ -173,7 +173,7 @@ module.exports.mensController = function (req, res, next) {
     res.render('homeFluff', { });
 };*/
 module.exports.homeController = function (req, res, next) {
-    res.render('yangDeux', { });
+    res.render('yangnine', { });
 };
 
 /*module.exports.sampleHomeController = function (req, res, next) {
