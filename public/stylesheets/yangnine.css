@@ -26,7 +26,7 @@ ul li {
   z-index: 99;
 }
 .hoverr a:hover span {
-  display: block;
+  display: inline-block;
 }
 .me {
   border-radius: 4px;
@@ -79,35 +79,52 @@ a:hover {
   body {
     background-color: #485bea;
   }
-  .me {
+  #name {
+    color:#f442c2;
   /*  background-color: #db4ae0;*/
   }
   a:hover {
     color: #3e2bef;
+    color:#f442c2;
   }
   .bright {
     color:#3e2bef;
     font-size: 18px;
+  }
+  .hoverr a{
+    position: relative;
+  }
+  .hoverr a span {
+    position: absolute;
+    display: none;
+    z-index: 99;
+  }
+  .hoverr a:hover span {
+    display: inline-block;
   }
   .colone {
     padding: 8px;
     margin: 2px;
     position: fixed!important;
     top: 50px;
-    left: 70px;
+    left: 30px;
+  }
+  #yangstory {
+    line-height: .7cm;
+    width: 95%;
   }
   .coltwo {
     padding: 8px;
     background-color: #f6fc85;
-    margin: 2px;
+    margin: -9px;
     position: absolute;
-    left: 220px;
+    left: 190px;
   }
 }
 
 @media screen and (max-width: 576px){
   body {
-    background-color: #4482e5;
+    background-color: #bec1ea;
   }
   .wrapper {
     background-color: #c0eef9;
@@ -117,32 +134,46 @@ a:hover {
     justify-content:center;
     margin: 0px;
   }
-  .me {
+  #name {
+    color: #3e2bef;
     /*background-color: #db4ae0;*/
   }
+  .hoverr a{
+    position: relative;
+  }
+  .hoverr a span {
+    position: absolute;
+    display: none;
+    z-index: 99;
+  }
+  .hoverr a:hover span {
+    display: inline-block;
+  }
   .colone {
-    padding: 8px;
-    margin: 2px;
+    padding: 0;
     position: fixed!important;
     top: 50px;
-    left: -10px;
+    left: 0px;
   }
   .coltwo {
     padding: 8px;
-    background-color: #f6fc85;
-    margin: 0 2px 0 2px;
+    background-color: #bec1ea;
+    margin: -9px;
     position: absolute;
-    left: 138px;
+    left: 150px;
  }
  a:hover {
-   color: #3e2bef;
+   color: #e54eb5;
  }
  #yangstory {
    line-height: .7cm;
    width: 98%;
  }
  .bright {
-   color:#3e2bef;
+   color:#e54eb5;
    font-size: 18px;
+ }
+ .exp {
+   width: 85%;
  }
 }
