@@ -166,10 +166,10 @@ a:hover {
     background-color:#3e2bef;
     background-color: #eeefaa;
 
-    /*background: white;*/
+    background: white;
     margin: -9px;
     position: absolute;
-    left: 150px;
+    left: 160px;
  }
  a:hover {
    color: #2f74ed;
