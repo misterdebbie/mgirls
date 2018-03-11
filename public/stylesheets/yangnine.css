@@ -124,11 +124,12 @@ a:hover {
 
 @media screen and (max-width: 576px){
   body {
-    background-color: #bec1ea;
+  background-color: #bec1ea;
+  background-color: #4588e8;
   }
   .wrapper {
-    background-color: #c0eef9;
-    background-color: #4482e5;
+    /*background-color: #c0eef9;
+    background-color: #4482e5;*/
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -136,6 +137,8 @@ a:hover {
   }
   #name {
     color: #3e2bef;
+    color: #95b9ed;
+    color: #dced6d;
     /*background-color: #db4ae0;*/
   }
   .hoverr a{
@@ -154,16 +157,22 @@ a:hover {
     position: fixed!important;
     top: 50px;
     left: 0px;
+    /*background-color: #bec1ea;*/
+
   }
   .coltwo {
     padding: 8px;
-    background-color: #bec1ea;
+    /*background-color: #bec1ea;*/
+    background-color:#3e2bef;
+    background-color: #eeefaa;
+
+    /*background: white;*/
     margin: -9px;
     position: absolute;
-    left: 170px;
+    left: 150px;
  }
  a:hover {
-   color: #e54eb5;
+   color: #2f74ed;
  }
  #yangstory {
    line-height: .7cm;
